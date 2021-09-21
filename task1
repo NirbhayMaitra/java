@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class T1{
+public static void main(String args[]){
+int tags,mon,price;
+Scanner sc = new Scanner(System.in);
+mon = sc.nextInt();
+price = sc.nextInt();
+tags = sc.nextInt();
+if(tags >= 10)
+{
+tags = tags+1;
+
+}
+System.out.println("The total number of items (purchased +free items) :" + tags);
+}
+
+}
